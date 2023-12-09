@@ -7,7 +7,7 @@ SECTION .text
 GLOBAL _start
 _start:
 mov eax, msg
-call sprintLF
+call sprint
 mov ecx, bufl
 mov edx, 80
 call sread
